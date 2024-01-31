@@ -11,20 +11,24 @@
 }
 .home .heading button {
   background: #f12323;
+  box-shadow: 0 0 20px #f12323;
+
   width: 150px;
   margin-top: 20px;
   padding: 10px 20px;
   color: #fff;
   border: none;
   outline: none;
+  cursor: pointer;
+}
+.home .heading button:hover {
+  opacity: 0.8;
 }
 .home .heading h2 {
   font-size: 19px;
   font-weight: light;
 }
-.home .heading p:first-child {
-  color: red;
-}
+
 .home .heading h1 {
   font-size: 58px;
   line-height: 60px;
@@ -34,14 +38,14 @@
 }
 @keyframes header {
   from {
-    line-height: 5px;
+    line-height: 1px;
   }
   to {
     line-height: 60px;
   }
 }
 .home .heading .section2 p:first-child {
-  color: #eb4a4a;
+  color: #f12323;
   font-size: 20px;
   font-weight: 700;
   margin-top: 20px;

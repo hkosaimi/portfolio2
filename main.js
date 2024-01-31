@@ -11,11 +11,11 @@ let articles = document.getElementById("articles");
 } */
 
 if (location.pathname === `/portfolio2/`) {
-  home.style.color = "red";
+  home.style.color = "#eb4a4a";
 }
 if (location.pathname === `/portfolio2/about.html`) {
-  about.style.color = "red";
+  about.style.color = "#eb4a4a";
 }
 if (location.pathname === `/portfolio2/articles.html`) {
-  articles.style.color = "red";
+  articles.style.color = "#eb4a4a";
 }
