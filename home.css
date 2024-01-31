@@ -74,6 +74,10 @@
     align-items: center;
     flex-direction: column;
   }
+  .home .heading button {
+    font-size: 16px;
+  }
+
   .home .heading .section1 {
     display: flex;
     align-items: center;
@@ -86,5 +90,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .info .container .number {
+    justify-content: end;
+    width: 150px;
   }
 }
