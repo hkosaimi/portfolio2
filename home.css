@@ -22,6 +22,9 @@
   font-size: 19px;
   font-weight: light;
 }
+.home .heading p:first-child {
+  color: red;
+}
 .home .heading h1 {
   font-size: 58px;
   line-height: 60px;

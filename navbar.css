@@ -7,6 +7,15 @@
 .navbar .links {
   display: flex;
   column-gap: 50px;
+  animation: opa 3s;
+}
+@keyframes opa {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .navbar .links p a {
@@ -18,7 +27,7 @@
 /* .navbar .links p:first-child {
   color: #f12323;
 } */
-.navbar .astertric p {
+.navbar .astertric {
   font-size: 76px;
   color: #f12323;
   animation: spinner 2s forwards;
@@ -58,7 +67,7 @@
     font-weight: 700;
   }
   .navbar .astertric {
-    margin-top: 15px;
+    margin-top: 25px;
     text-align: center;
   }
 }

@@ -1,8 +1,8 @@
-let index = document.getElementById("index");
+let portfolio2 = document.getElementById("index");
 let about = document.getElementById("about");
 let articles = document.getElementById("articles");
 
-let linkArr = [index, about, articles];
+let linkArr = [portfolio2, about, articles];
 
 for (let i = 0; i < linkArr.length; i++) {
   if (location.pathname === `/${linkArr[i].id}.html`) {
