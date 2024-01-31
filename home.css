@@ -1,0 +1,90 @@
+.home {
+  padding: 2rem 4rem;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.home .heading {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.home .heading button {
+  background: #f12323;
+  width: 150px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+.home .heading h2 {
+  font-size: 19px;
+  font-weight: light;
+}
+.home .heading h1 {
+  font-size: 58px;
+  line-height: 60px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  animation: header 2s;
+}
+@keyframes header {
+  from {
+    line-height: 5px;
+  }
+  to {
+    line-height: 60px;
+  }
+}
+.home .heading p:first-child {
+  color: #eb4a4a;
+}
+.home .heading p {
+  margin-top: 5px;
+}
+.info .container .number {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  column-gap: 10px;
+}
+
+.info .container .number h1 {
+  font-size: 50px;
+}
+.info .container .number span {
+  color: #f12323;
+  font-size: 50px;
+  font-weight: 700;
+}
+.info .container {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 680px) {
+  .home {
+    flex-direction: column;
+    margin-top: 0;
+    padding: 1rem 4rem;
+  }
+  .home .heading {
+    align-items: center;
+    flex-direction: column;
+  }
+  .home .heading .section1 {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+  .info {
+    margin-top: 50px;
+  }
+  .info .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

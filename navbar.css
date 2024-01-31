@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 4rem;
+  align-items: center;
+}
+.navbar .links {
+  display: flex;
+  column-gap: 50px;
+}
+.navbar .links p {
+  font-size: 14px;
+}
+.navbar .links p:first-child {
+  color: #f12323;
+}
+.navbar .astertric {
+  font-size: 76px;
+  color: #f12323;
+}
+
+.navbar .social {
+  font-size: 14px;
+  display: flex;
+  column-gap: 20px;
+}
+
+@media screen and (max-width: 680px) {
+  .navbar {
+    padding: 0 2rem;
+    /*     flex-direction: column;
+ */
+  }
+  .navbar .links {
+    display: flex;
+    column-gap: 20px;
+  }
+  .navbar .astertric {
+    margin-top: 15px;
+    text-align: center;
+  }
+}
