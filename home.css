@@ -40,8 +40,12 @@
     line-height: 60px;
   }
 }
-.home .heading p:first-child {
+.home .heading .section2 p:first-child {
   color: #eb4a4a;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .home .heading p {
   margin-top: 5px;
@@ -86,6 +90,10 @@
     align-items: center;
     column-gap: 10px;
   }
+  .home .heading .section1 h1 {
+    border-left: 5px solid #f12323;
+    padding: 0 0 0 10px;
+  }
   .info {
     margin-top: 50px;
   }
@@ -97,5 +105,9 @@
   .info .container .number {
     justify-content: end;
     width: 150px;
+  }
+  .home .heading .section2 button {
+    margin-top: 20px;
+    font-weight: bold;
   }
 }
