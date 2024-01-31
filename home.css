@@ -12,7 +12,6 @@
 .home .heading button {
   background: #f12323;
   box-shadow: 0 0 20px #f12323;
-
   width: 150px;
   margin-top: 20px;
   padding: 10px 20px;
@@ -21,9 +20,7 @@
   outline: none;
   cursor: pointer;
 }
-.home .heading button:hover {
-  opacity: 0.8;
-}
+
 .home .heading h2 {
   font-size: 19px;
   font-weight: light;
