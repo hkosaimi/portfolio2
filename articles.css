@@ -80,7 +80,8 @@
     padding: 2rem 2rem;
   }
   .articles .section1 {
-    justify-content: space-between;
+    justify-content: space-around;
+    column-gap: 50px;
   }
   .articles .section1 h1 {
     font-size: 30px;
@@ -98,9 +99,11 @@
   }
   .section2 .right {
     width: auto;
+    margin-bottom: 30px;
   }
   .articles .section1 input {
-    width: 150px;
+    width: 140px;
+
     /*  outline: none;
     border-top: 0;
     border-right: 0;
