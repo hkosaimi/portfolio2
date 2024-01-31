@@ -1,5 +1,5 @@
 let home = document.getElementById("home");
-let about = document.getElementById("about");
+let contact = document.getElementById("contact");
 let articles = document.getElementById("articles");
 
 /* let linkArr = [portfolio2, about, articles];
@@ -13,8 +13,8 @@ let articles = document.getElementById("articles");
 if (location.pathname === `/portfolio2/`) {
   home.style.color = "#eb4a4a";
 }
-if (location.pathname === `/portfolio2/about.html`) {
-  about.style.color = "#eb4a4a";
+if (location.pathname === `/portfolio2/contact.html`) {
+  contact.style.color = "#eb4a4a";
 }
 if (location.pathname === `/portfolio2/articles.html`) {
   articles.style.color = "#eb4a4a";
