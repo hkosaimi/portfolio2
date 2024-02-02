@@ -19,3 +19,17 @@ if (location.pathname === `/portfolio2/contact.html`) {
 if (location.pathname === `/portfolio2/articles.html`) {
   articles.style.color = "#eb4a4a";
 }
+
+const textAnim = new SplitType(".text_anim", { types: "lines,  words" });
+
+// gsapAnimation(document.querySelectorAll('.name .line .word'));
+// gsapAnimation(document.querySelectorAll('.abt-p .line .word'));
+
+gsap.to(document.querySelectorAll(".name .line .word"), {
+  // yes, we can add it to an entire timeline!
+  y: 0,
+  stagger: 0.05,
+  delay: 0.5,
+  duration: 1,
+  ease: "power4.out",
+});

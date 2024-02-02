@@ -31,16 +31,32 @@
   line-height: 60px;
   margin-top: 15px;
   margin-bottom: 20px;
-  animation: header 2s;
+  position: relative;
+  animation: header 2s forwards;
 }
+.word {
+  clip-path: polygon(0 0, 120% 0, 120% 120%, 0% 120%);
+  transform: translateY(120%);
+}
+
+.line {
+  clip-path: polygon(0 0, 120% 0, 120% 120%, 0% 120%);
+}
+
 @keyframes header {
   from {
-    line-height: 1px;
+    /*     line-height: 1px;
+ */
+    /* transform: translateY(200px); */
   }
   to {
-    line-height: 60px;
+    /*     line-height: 60px;
+ */
+    /*     transform: translateY(0px);
+ */
   }
 }
+
 .home .heading .section2 p:first-child {
   color: #f12323;
   font-size: 20px;
